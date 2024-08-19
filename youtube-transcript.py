@@ -50,9 +50,9 @@ def main():
         print(transcript)
         
         # Optionally, save to a file
-        with open(f"{video_id}_transcript.txt", "w", encoding="utf-8") as f:
-            f.write(transcript)
-        print(f"\nTranscript saved to {video_id}_transcript.txt")
+        # with open(f"{video_id}_transcript.txt", "w", encoding="utf-8") as f:
+        #     f.write(transcript)
+        # print(f"\nTranscript saved to {video_id}_transcript.txt")
     except Exception as e:
         print(f"An error occurred: {e}")
 
